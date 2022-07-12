@@ -1,0 +1,117 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3655,        108]
+NotebookOptionsPosition[      3195,         87]
+NotebookOutlinePosition[      3540,        102]
+CellTagsIndexPosition[      3497,         99]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"NumericalRangeVisual", "[", "\[IndentingNewLine]", 
+  RowBox[{"{", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"0", ",", " ", 
+      RowBox[{"1", "+", "I"}], ",", " ", "0", ",", " ", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", " ", "0", ",", " ", 
+      RowBox[{"0.1", "-", "I"}], ",", " ", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", " ", "1", ",", " ", "0", ",", " ", 
+      RowBox[{"1", "+", "I"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", " ", "0", ",", " ", "1", ",", " ", "0"}], "}"}]}], 
+   "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", " ", "]"}]], "Input",
+ CellChangeTimes->{{3.697878715177685*^9, 3.697878747258037*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0, 0, 1], Opacity[0.3], PolygonBox[CompressedData["
+1:eJxd0/tPzXEcx/GzDK3cHdZccjk7iCj3De0VckmHUcO6uMSyJJepuRYNMwrD
+Mq0aU2y5HZTLcdsrtNpKKSSRouKQc1zS5Ttd3N6fn/zw2vMPeOw1ZNVG/zAH
+nU43/c/+Vt9ryu2YPA3R7vYTKR/OckVE667hFg2u5gAPQ+VVhphXBk1I0WA+
+HPOsoauFpxJH+vWJ1JA6Iyy+YFA20240FT00aAi0OvsVvsthRfbt+4G3mrH8
+xtGj2/fk09RU3ftbn2b0t1x+UJFeTHPgvrFRxiYML52Uasx5zqcLgiMGsQH9
+Tmc9uVhczkVbkFJrrkdlQarnSWsVm2uv+Tjv/opM810/fXQN5xS5h65+ZEXc
+y+S51S5WuibER4UeeIMrW9N26hfW8ae9KtngloeIjqGOucdsnOZ2c1Hv6Csc
+v9YrtuWunZXdDzTmOhWz1/ZXLvnOX/hr8cdO1x3Kuf7FzDLTCzv1wSNLghOq
+WNhy51BQiJ39gkaP+uRWzSjv8rDYHBvjp43KLP1WwwudjJNyh9roXtI2b7Lv
+e3Y56HIqI+4zfWaHLP3l/4HLGscm1b2rY2zb2cT6YVY2tSfadbPqGNOx8/eK
+3GYaz2+tCGA2dWVGy2snjZGHfX9kltxju42XTnhr3F9b7TjfZGHABq81hes0
+juvpe7+sIIurt83v5nlE4w7X1pi8PWauCm8wPcjQ+LN8/8QxU88xqcOmEt09
+jaZwm8dmr5NscaoqbcjT+LZtr/HxinBuM/x4bXiscfCzdIdPO4+jr/gzQvwR
+JP4cKv5YJv7MEn8ofyp/nBF/Lhd/1Ig/lT+UP5U/lD9HiD+KxJ/9xR8LxJ+1
+4o9G8afyxyzxp/KHXvyZKf74LP5U/tgk/lD+UP5Q/nBc8s8fkeKPAeKPYvHH
+QPHHFvGH8keG+MNT/NFD/DFb/BEi/tgh/qgXfyh/DBN/KH8of7SKP/aJP/zF
+H6PFH8ofyh/KH1/EH6niD2/xR6v4I679nz+UP5Q/////b/BdPSA=
+    "]]},
+  AspectRatio->1,
+  Axes->True,
+  PlotRange->{{-2., 2.}, {-2., 2.}}]], "Output",
+ CellChangeTimes->{3.6978787479563103`*^9, 3.698916516067849*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<simetricna.eps\>\"", ",", " ", "%"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6989165183266354`*^9, 3.698916524774955*^9}}],
+
+Cell[BoxData["\<\"simetricna.eps\"\>"], "Output",
+ CellChangeTimes->{3.6989165287919664`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"DirectoryName", "[", 
+   RowBox[{"AbsoluteFileName", "[", "\"\<simetricna.eps\>\"", "]"}], "]"}], 
+  "]"}]], "Input",
+ NumberMarks->False]
+},
+WindowSize->{728, 832},
+WindowMargins->{{60, Automatic}, {Automatic, -43}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 813, 18, 172, "Input"],
+Cell[1396, 42, 1279, 24, 379, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2712, 71, 176, 3, 31, "Input"],
+Cell[2891, 76, 93, 1, 31, "Output"]
+}, Open  ]],
+Cell[2999, 80, 192, 5, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
